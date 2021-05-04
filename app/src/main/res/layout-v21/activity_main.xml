@@ -19,8 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contrasena2"
-        tools:targetApi="lollipop" />
+        app:layout_constraintTop_toBottomOf="@+id/contrasena2" />
 
     <EditText
         android:id="@+id/usuario"
@@ -29,7 +28,6 @@
         android:layout_marginTop="25dp"
         android:autofillHints=""
         android:drawableStart="@drawable/ic_baseline_account_circle_24"
-        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
         android:hint="@string/usuario"
         android:inputType="textShortMessage"
         android:textColor="@color/black"
@@ -44,7 +42,6 @@
         android:layout_height="@dimen/textfield_height"
         android:layout_marginTop="10dp"
         android:drawableStart="@drawable/ic_baseline_lock_24"
-        android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:hint="@string/contrasena"
         android:importantForAutofill="no"
         android:inputType="textVisiblePassword"
@@ -60,7 +57,6 @@
         android:layout_height="@dimen/textfield_height"
         android:layout_marginTop="10dp"
         android:drawableStart="@drawable/ic_baseline_lock_24"
-        android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:hint="@string/contrasena2"
         android:importantForAutofill="no"
         android:inputType="textVisiblePassword"

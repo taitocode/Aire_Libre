@@ -6,7 +6,7 @@
     <string name="registrarse">Registrarse</string>
     <string name="ignorar">Recordar más tarde</string>
     <string name="contrasena">Ingrese su contraseña</string>
-    <string name="contrasena2">Repita la contraseña</string>
+    <string name="contrasena2">Confirme su contraseña</string>
     <string name="datos_faltantes">Debes ingresar todos los datos</string>
     <string name="datos_correctos">El registro se completó correctamente</string>
     <string name="comprobar_datos">Verifica los datos</string>
@@ -14,4 +14,7 @@
     <string name="validar_contrasena">Las contraseñas no son iguales</string>
     <string name="bienvenida">Has ingresado correctamente!</string>
     <string name="datos_incorrectos">Información incorrecta</string>
+    <string name="menu">Menú</string>
+    <string name="search">Buscar</string>
+    <string name="locations">Marcadores</string>
 </resources>

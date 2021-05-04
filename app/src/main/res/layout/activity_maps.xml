@@ -6,18 +6,18 @@
     android:layout_width="match_parent">
 
     <!-- MAP /////////////////////////////////////////////////////////////////////////////////// -->
-    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+    <!--fragment xmlns:map="http://schemas.android.com/apk/res-auto"
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MapsActivity"
-        tools:layout="@layout/activity_maps" />
+        tools:layout="@layout/activity_maps" /-->
     <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/main_menuButton"
-        android:layout_width="160dp"
-        android:layout_height="160dp"
+        android:layout_width="@dimen/menu_button"
+        android:layout_height="@dimen/menu_button"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
@@ -25,11 +25,13 @@
         android:layout_marginLeft="32dp"
         android:layout_marginBottom="29dp"
         android:clickable="true"
-        android:contentDescription="Main Menu button"
+        android:contentDescription="@string/menu"
         android:focusable="true"
         android:scaleX="1.4"
         android:scaleY="1.4"
-        android:src="@drawable/ic_baseline_menu_24" />
+        android:src="@drawable/ic_baseline_menu_24"
+        app:tint="@android:color/white"
+        app:backgroundTint="@color/primary" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/search_button"
@@ -42,9 +44,11 @@
         android:layout_marginLeft="81dp"
         android:layout_marginTop="24dp"
         android:clickable="true"
-        android:contentDescription="Search button"
+        android:contentDescription="@string/search"
         android:focusable="true"
-        android:src="@drawable/ic_baseline_search_24" />
+        android:src="@drawable/ic_baseline_search_24"
+        app:tint="@android:color/white"
+        app:backgroundTint="@color/primary" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/baseline_button"
@@ -57,8 +61,10 @@
         android:layout_marginLeft="18dp"
         android:layout_marginTop="23dp"
         android:clickable="true"
-        android:contentDescription="TODO"
+        android:contentDescription="@string/locations"
         android:focusable="true"
-        android:src="@drawable/ic_baseline_place_24" />
+        android:src="@drawable/ic_baseline_place_24"
+        app:tint="@android:color/white"
+        app:backgroundTint="@color/primary" />
 </RelativeLayout>
 
